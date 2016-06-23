@@ -10,9 +10,7 @@
   },
   "main": "./index.js",
   "scripts": {
-    "test": "mocha test/",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "test": "mocha test/"
   },
   "keywords": [
     "directory",
@@ -22,8 +20,7 @@
     "node": ">=0.6.6"
   },
   "dependencies": {
-    "minimatch": "3.0.2",
-    "snyk": "1.15.0"
+    "minimatch": "3.0.2"
   },
   "devDependencies": {
     "mocha": "1.14.0"
